@@ -1,7 +1,7 @@
 {
   "name": "actioncable-react",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.1",
   "license": "MIT",
   "files": [
     "dist"
@@ -15,6 +15,22 @@
       "require": "./dist/actioncable-react.umd.js"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandreh92/actioncable-react.git"
+  },
+  "keywords": [
+    "react",
+    "actioncable",
+    "websockets",
+    "rails",
+    "action-cable",
+    "rails actioncable"
+  ],
+  "bugs": {
+    "url": "https://github.com/alexandreh92/actioncable-react/issues"
+  },
+  "homepage": "https://github.com/alexandreh92/actioncable-react#readme",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
