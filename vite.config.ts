@@ -16,9 +16,9 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'lib/index.ts'),
-      name: 'actioncable-react',
+      name: 'react-actioncable',
       formats: ['es', 'umd'],
-      fileName: (format) => `actioncable-react.${format}.js`,
+      fileName: (format) => `react-actioncable.${format}.js`,
     },
     rollupOptions: {
       external: ['react', 'react-dom', 'actioncable'],

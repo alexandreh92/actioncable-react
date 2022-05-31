@@ -1,23 +1,23 @@
 {
-  "name": "actioncable-react",
+  "name": "react-actioncable",
   "private": false,
   "version": "0.0.1",
   "license": "MIT",
   "files": [
     "dist"
   ],
-  "main": "./dist/actioncable-react.umd.js",
-  "module": "./dist/actioncable-react.es.js",
+  "main": "./dist/react-actioncable.umd.js",
+  "module": "./dist/react-actioncable.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/actioncable-react.es.js",
-      "require": "./dist/actioncable-react.umd.js"
+      "import": "./dist/react-actioncable.es.js",
+      "require": "./dist/react-actioncable.umd.js"
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexandreh92/actioncable-react.git"
+    "url": "git+https://github.com/alexandreh92/react-actioncable.git"
   },
   "keywords": [
     "react",
@@ -28,9 +28,9 @@
     "rails actioncable"
   ],
   "bugs": {
-    "url": "https://github.com/alexandreh92/actioncable-react/issues"
+    "url": "https://github.com/alexandreh92/react-actioncable/issues"
   },
-  "homepage": "https://github.com/alexandreh92/actioncable-react#readme",
+  "homepage": "https://github.com/alexandreh92/react-actioncable#readme",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
