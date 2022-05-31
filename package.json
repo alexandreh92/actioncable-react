@@ -2,6 +2,19 @@
   "name": "actioncable-react",
   "private": true,
   "version": "0.0.0",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/actioncable-react.umd.js",
+  "module": "./dist/actioncable-react.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/actioncable-react.es.js",
+      "require": "./dist/actioncable-react.umd.js"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -23,6 +36,10 @@
     "eslint": "^8.16.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-import-resolver-vite": "^1.0.3",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
@@ -33,6 +50,7 @@
     "vite-plugin-eslint": "^1.6.1"
   },
   "peerDependencies": {
+    "actioncable": "^5.2.0",
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
   }
